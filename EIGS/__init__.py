@@ -1,6 +1,6 @@
 # iterated_graph_systems/__init__.py
 
-from .eigs import (
+from .EIGS import (
     Edge_Iterated_Graph_Systems,
     draw_IGS,
     draw_bond_percolation,
