@@ -215,7 +215,7 @@ def draw_IGS(G, layout, direction="on", colour="on"):
         layout,
         with_labels=False,
         edge_color=edge_colors,
-        node_size=1,
+        node_size=10,
         arrows=arrow_flag,
     )
     plt.title("Iterated Graph Systems")
