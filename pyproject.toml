@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -19,4 +19,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Nero-17/iterated-graph-systems"
+Homepage = "https://github.com/Nero-17/Iterated-Graph-Systems"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["iterated_graph_systems*"]
+exclude = ["examples*"]
